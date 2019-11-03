@@ -3,6 +3,15 @@ package id.ac.polinema.recyclerviewsangatsederhana.Models;
 public class SuperHero {
 
     public String heroName;
+    public int[] images;
+
+    public int[] getImages() {
+        return images;
+    }
+
+    public void setImages(int[] images) {
+        this.images = images;
+    }
 
     public String getHeroName() {
         return heroName;
